@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  
+  <title>部落格 | 第二大腦</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="第二大腦 | 日誌 | System Design | Backend | LeetCode">
+<meta property="og:type" content="website">
+<meta property="og:title" content="第二大腦">
+<meta property="og:url" content="https://2ndbrain.cc/blog/index.html">
+<meta property="og:site_name" content="第二大腦">
+<meta property="og:description" content="第二大腦 | 日誌 | System Design | Backend | LeetCode">
+<meta property="og:locale" content="zh_TW">
+<meta property="article:author" content="Irene Wang">
+<meta property="article:tag" content="第二大腦,技術,System Design,Backend,LeetCode">
+<meta name="twitter:card" content="summary">
+  
+  
+    <link rel="shortcut icon" href="/images/logo.svg">
+  
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Tourney&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
+  
+<link rel="stylesheet" href="/css/all.min.css">
+
+<meta name="generator" content="Hexo 7.3.0"></head>
+
+<body>
+  <header
+    class="py-md-4 border-bottom border-primary-200"
+    style="margin-bottom: 1px;"
+  >
+  <nav class="navbar navbar-expand-md py-md-1">
+    <div class="container">
+      <a class="navbar-brand py-0" href="/">
+        <img src="/images/logo.svg" alt="logo">
+      </a>
+      <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="material-symbols-outlined fs-1 text-primary-900">menu</span>
+      </button>
+      <div class="collapse navbar-collapse offset-md-2 offset-lg-3" id="navbarToggler">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0 text-center">
+          
+          
+            <li class="nav-item mb-4 mb-md-0 me-md-3 me-lg-7">
+              <a
+                class="nav-link "
+                href="/"
+              >
+                <span class="position-relative px-2 py-1">首頁</span>
+              </a>
+            </li>
+          
+            <li class="nav-item ">
+              <a
+                class="nav-link active"
+                href="/blog"
+              >
+                <span class="position-relative px-2 py-1">部落格</span>
+              </a>
+            </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+
+  <main>
+  <section class="container pb-7 pb-md-9">
+    <div class="py-7 py-lg-9 mt-lg-9">
+      <h2 class="title-deco mb-3 mb-lg-4 text-center text-primary-700 tracking-wide fw-semibold">第二大腦</h2>
+      <p class="mb-0 text-center text-primary-500">人生，是靠輸出達到轉變。</p>
+    </div>
+    <div class="row flex-row-reverse mb-lg-9">
+      <div class="col-12 col-lg-3">
+        <aside class="blog__menu px-3 py-4 p-lg-7 bg-primary-100">
+  <ul class="d-flex flex-lg-column justify-content-md-center justify-content-lg-start gap-7 mb-0 p-xxl-7 list-unstyled">
+    <li class="flex-shrink-0">
+      
+      <a href="/blog" class="blog__menu--active pb-1 fs-5 text-primary-600 link-primary-500 bg-transparent text-decoration-none" type="button">全部文章</a>
+    </li>
+    
+      
+      <li class="flex-shrink-0">
+        <a href="/tags/%E6%97%A5%E8%AA%8C/" class=" pb-1 fs-5 text-primary-600 link-primary-500 bg-transparent text-decoration-none">
+          日誌
+        </a>
+      </li>
+    
+      
+      <li class="flex-shrink-0">
+        <a href="/tags/%E6%8A%80%E8%A1%93/" class=" pb-1 fs-5 text-primary-600 link-primary-500 bg-transparent text-decoration-none">
+          技術
+        </a>
+      </li>
+    
+  </ul>
+</aside>
+      </div>
+
+      <ul class="d-flex flex-column row-gap-7 row-gap-lg-9 gx-9 gx-lg-4 col-12 col-lg-9 mt-9 mt-lg-0 mb-0 pt-9 pt-lg-0">
+        
+          
+   <!-- prevent image appear -->
+
+
+<li
+  id="post-go-workspace-mono-to-distributed-system"
+  class="card border-0"
+  itemprop="blogPost"
+  itemscope
+  itemtype="https://schema.org/BlogPosting"
+>
+  <article class="row g-0">
+    <div class="col-12 col-lg-4">
+      <img
+        src="/images/cover-workspace.png"
+        class="img-fluid w-100 h-100 object-fit-cover rounded-3"
+        alt="article-使用 Go Workspaces 管理系統服務：從單體架構到分散式架構的彈性實現"
+      >
+    </div>
+    <div class="col-12 col-lg-8">
+      <div class="card-body pt-lg-0 pe-lg-0">
+        <div class="d-flex justify-content-between justify-content-lg-start align-items-center gap-3 mb-3">
+          <p class="card-text mb-0 fs-6 text-primary-600">
+            <small class="text-body-secondary">
+              2024/9/15
+            </small>
+          </p>
+
+          
+            <span class="badge fs-6 lh-base fw-normal text-primary-700 bg-primary-200 rounded-4">
+              技術
+            </span>
+          
+
+        </div>
+        <h5 class="card-title mb-3 text-primary-700">
+          使用 Go Workspaces 管理系統服務：從單體架構到分散式架構的彈性實現
+        </h5>
+        <div class="cutoff-text mb-0 text-primary-700">
+          <p>在這篇文章，我要跟大家分享一下我是怎麼使用 <strong>Go workspaces</strong> 來管理多個系統服務，並且實現單體架構和微服務架構之間的彈性切換。這其實是我這幾年在做支付和金融系統時的一些實戰經驗，當系統越來越大，很多架構上的決策就變得非常重要。這篇文章會幫大家解開一些疑惑，還會分享怎麼設計專案的檔案目錄結構，讓系統在擴展時變得更靈活好維護。</p>
+<h3 id="1-為什麼用-Go-workspaces？"><a href="#1-為什麼用-Go-workspaces？" class="headerlink" title="1. 為什麼用 Go workspaces？"></a>1. 為什麼用 Go workspaces？</h3><p>大家可能都有過類似的經驗，當系統變得複雜的時候，不同服務之間的依賴關係和版本管理會讓人頭大。特別是當你把系統拆成很多微服務後，怎麼有效管理這些模組之間的依賴，不讓它們互相影響，就變得非常棘手。</p>
+<p>Go 在 1.18 推出的 <strong>workspaces</strong> 功能，真的可以幫助解決這個問題。透過這個工具，我們可以把每個服務獨立出來成為一個 Go module，這樣每個模組的依賴關係都可以獨立管理，而且還可以更輕鬆地在單體架構和微服務之間切換。</p>
+<h3 id="2-如何規劃檔案目錄結構"><a href="#2-如何規劃檔案目錄結構" class="headerlink" title="2. 如何規劃檔案目錄結構"></a>2. 如何規劃檔案目錄結構</h3><p>說到如何規劃一個專案的目錄結構，這其實是整個系統維護的核心。特別是當你要在單體和微服務架構間保持彈性時，規劃得當的目錄結構可以讓開發、測試和部署都變得更順利。</p>
+<p>這是我常用的目錄結構範例，適合同時管理多個微服務或模組：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line">project-root/</span><br><span class="line">│</span><br><span class="line">├── go.work                <span class="comment"># Go workspace 設定檔</span></span><br><span class="line">├── go.work.sum            <span class="comment"># Go workspace 依賴管理檔</span></span><br><span class="line">├── services/              <span class="comment"># 所有系統服務的目錄</span></span><br><span class="line">│   ├── user-service/      <span class="comment"># 使用者服務</span></span><br><span class="line">│   │   ├── cmd/           </span><br><span class="line">│   │   │   └── main.go    </span><br><span class="line">│   │   ├── internal/      </span><br><span class="line">│   │   ├── pkg/           </span><br><span class="line">│   │   └── go.mod         </span><br><span class="line">│   ├── order-service/     <span class="comment"># 訂單服務</span></span><br><span class="line">│   │   ├── cmd/           </span><br><span class="line">│   │   │   └── main.go    </span><br><span class="line">│   │   ├── internal/      </span><br><span class="line">│   │   ├── pkg/           </span><br><span class="line">│   │   └── go.mod         </span><br><span class="line">│   ├── payment-service/   <span class="comment"># 支付服務</span></span><br><span class="line">│   │   ├── cmd/           </span><br><span class="line">│   │   │   └── main.go    </span><br><span class="line">│   │   ├── internal/      </span><br><span class="line">│   │   ├── pkg/           </span><br><span class="line">│   │   └── go.mod         </span><br><span class="line">│   └── shared/            <span class="comment"># 各服務共用的程式碼（例如工具函式）</span></span><br><span class="line">│       ├── internal/      </span><br><span class="line">│       └── pkg/           </span><br><span class="line">├── Makefile               <span class="comment"># 管理建置和部署的腳本</span></span><br><span class="line">└── README.md              <span class="comment"># 專案說明文件</span></span><br></pre></td></tr></table></figure>
+
+<p>這個結構讓我們可以把系統中的每個業務模組分別放在獨立的資料夾裡，每個模組都有自己的 <code>go.mod</code> 檔案，這樣每個模組的依賴就能各自管理，而且如果將來要把某個服務獨立出來運行或擴展，也會非常方便。</p>
+<h3 id="3-Go-Workspace-的設定"><a href="#3-Go-Workspace-的設定" class="headerlink" title="3. Go Workspace 的設定"></a>3. Go Workspace 的設定</h3><p>要開始使用 Go Workspace，可以利用 Go 提供的 CLI 工具進行自動化的設定。</p>
+<p>首先，進入專案的根目錄，並透過以下指令來初始化一個新的 workspace：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">go work init</span><br></pre></td></tr></table></figure>
+
+<p>這條命令會在專案根目錄下建立一個 <code>go.work</code> 檔案，表示這是我們的 Go workspace 的起點。</p>
+<p>接下來，我們可以使用 <code>go work use</code> 來將現有的模組（例如 <code>user-service</code>、<code>order-service</code> 和 <code>payment-service</code>）加入到 workspace 裡面：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">go work use ./services/user-service ./services/order-service ./services/payment-service</span><br></pre></td></tr></table></figure>
+
+<p>這會自動將這三個模組加入到 <code>go.work</code> 檔案中，這樣你的 workspace 檔案就會像這樣：</p>
+<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">go</span> <span class="number">1.18</span></span><br><span class="line"></span><br><span class="line">use (</span><br><span class="line">    ./services/user-service</span><br><span class="line">    ./services/order-service</span><br><span class="line">    ./services/payment-service</span><br><span class="line">)</span><br></pre></td></tr></table></figure>
+
+<p>這個流程讓我們可以快速管理多個模組，並確保這些模組在同一個 workspace 中協作開發，非常方便。</p>
+<h3 id="4-實現單體和微服務架構的彈性切換"><a href="#4-實現單體和微服務架構的彈性切換" class="headerlink" title="4. 實現單體和微服務架構的彈性切換"></a>4. 實現單體和微服務架構的彈性切換</h3><p>在實際的專案開發中，我們經常需要在 <strong>單體架構</strong> 和 <strong>微服務架構</strong> 之間靈活切換，特別是系統在初期和後期的需求會有所不同。</p>
+<h4 id="單體架構的情境"><a href="#單體架構的情境" class="headerlink" title="單體架構的情境"></a>單體架構的情境</h4><p>在專案初期，如果你的團隊規模不大，或是系統還在快速迭代的階段，單體架構往往是個不錯的選擇。這樣的架構部署起來比較簡單，所有服務都會打包在一個應用內運行。</p>
+<p>你可以在專案的 <code>main.go</code> 中把所有模組都匯入，像這樣：</p>
+<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> main</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> (</span><br><span class="line">    <span class="string">&quot;services/user-service&quot;</span></span><br><span class="line">    <span class="string">&quot;services/order-service&quot;</span></span><br><span class="line">    <span class="string">&quot;services/payment-service&quot;</span></span><br><span class="line">)</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">main</span><span class="params">()</span></span> &#123;</span><br><span class="line">    <span class="keyword">go</span> user-service.Start()</span><br><span class="line">    <span class="keyword">go</span> order-service.Start()</span><br><span class="line">    <span class="keyword">go</span> payment-service.Start()</span><br><span class="line"></span><br><span class="line">    <span class="keyword">select</span> &#123;&#125;  <span class="comment">// 避免 main goroutine 結束</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>然後，你只需要執行 <code>go build</code>，就能把整個應用打包成一個單一的可執行檔，部署也會變得很簡單。</p>
+<h4 id="微服務架構的情境"><a href="#微服務架構的情境" class="headerlink" title="微服務架構的情境"></a>微服務架構的情境</h4><p>當系統越來越大，某些服務的負載可能會不斷增加，這時就需要把這些服務拆分成<strong>獨立的微服務</strong>。透過 Go workspace，我們可以輕鬆地把每個模組分開，變成獨立的服務來部署。</p>
+<p>你只需要進到每個模組的資料夾，然後各自建置它們的可執行檔：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> services/user-service</span><br><span class="line">go build -o user-service</span><br><span class="line"></span><br><span class="line"><span class="built_in">cd</span> services/order-service</span><br><span class="line">go build -o order-service</span><br><span class="line"></span><br><span class="line"><span class="built_in">cd</span> services/payment-service</span><br><span class="line">go build -o payment-service</span><br></pre></td></tr></table></figure>
+
+<p>這樣一來，每個微服務可以分別部署在不同的服務器或容器裡，達到系統的彈性擴展。</p>
+<h3 id="5-結語"><a href="#5-結語" class="headerlink" title="5. 結語"></a>5. 結語</h3><p>透過 Go workspaces 和合理的檔案目錄結構設計，我們能夠輕鬆管理多個系統服務，並且可以在單體架構和微服務架構之間靈活切換。這不僅提升了開發效率，也讓我們在面對系統擴展時更加從容。希望這篇文章能夠讓你在處理多服務管理的時候，也能夠輕鬆應對不同的需求變化。</p>
+<p>如果你剛好在做類似的專案，或是考慮將系統進行服務拆分，試試 Go workspaces，或許會讓你感到意外地好用！</p>
+
+        </p>
+        <a class="stretched-link" href="/2024/09/15/go-workspace-mono-to-distributed-system/"></a>
+      </div>
+    </div>
+  </article>
+</li>
+
+        
+          
+   <!-- prevent image appear -->
+
+
+<li
+  id="post-spring-boot-aop-log"
+  class="card border-0"
+  itemprop="blogPost"
+  itemscope
+  itemtype="https://schema.org/BlogPosting"
+>
+  <article class="row g-0">
+    <div class="col-12 col-lg-4">
+      <img
+        src="/images/cover-aop.png"
+        class="img-fluid w-100 h-100 object-fit-cover rounded-3"
+        alt="article-在 Spring Boot 使用 AOP 印日誌"
+      >
+    </div>
+    <div class="col-12 col-lg-8">
+      <div class="card-body pt-lg-0 pe-lg-0">
+        <div class="d-flex justify-content-between justify-content-lg-start align-items-center gap-3 mb-3">
+          <p class="card-text mb-0 fs-6 text-primary-600">
+            <small class="text-body-secondary">
+              2021/6/26
+            </small>
+          </p>
+
+          
+            <span class="badge fs-6 lh-base fw-normal text-primary-700 bg-primary-200 rounded-4">
+              技術
+            </span>
+          
+
+        </div>
+        <h5 class="card-title mb-3 text-primary-700">
+          在 Spring Boot 使用 AOP 印日誌
+        </h5>
+        <div class="cutoff-text mb-0 text-primary-700">
+          <p>使用 AOP (Aspect Oriented Programming) 的方式印出日誌，會比在各處程式中寫印日誌來的簡潔，集中管理印日誌的程式，避免影響閱讀業務邏輯。</p>
+<h2 id="建置-Log4j2"><a href="#建置-Log4j2" class="headerlink" title="建置 Log4j2"></a>建置 Log4j2</h2><p>參考這篇<a href="/2021/06/26/setup-log4j2/">建置 Log4j2</a> 文章。</p>
+<h2 id="加入-Dependency"><a href="#加入-Dependency" class="headerlink" title="加入 Dependency"></a>加入 Dependency</h2><p>在 <code>build.gradle</code> 加入 Spring Boot AOP dependencies：<code>spring-boot-starter-aop</code>，</p>
+<figure class="highlight groovy"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">dependencies &#123;</span><br><span class="line">    implementation <span class="string">&#x27;org.springframework.boot:spring-boot-starter-web&#x27;</span></span><br><span class="line">    implementation <span class="string">&#x27;org.springframework.boot:spring-boot-starter-aop&#x27;</span></span><br><span class="line">    compileOnly <span class="string">&#x27;org.projectlombok:lombok:1.18.18&#x27;</span></span><br><span class="line">    annotationProcessor <span class="string">&#x27;org.projectlombok:lombok:1.18.18&#x27;</span></span><br><span class="line"></span><br><span class="line">    testImplementation <span class="string">&#x27;org.springframework.boot:spring-boot-starter-test&#x27;</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<span id="more"></span>
+
+<h2 id="定義-TimeLogAspect"><a href="#定義-TimeLogAspect" class="headerlink" title="定義 TimeLogAspect"></a>定義 TimeLogAspect</h2><p>想像各個業務邏輯是縱向的流程，而 AOP 就是將流程橫剖後織入程式，藉此達到關注點分離。</p>
+<p>在<strong>元件</strong>上標註 <code>@Aspect</code>，即可定義為一個切面，注意也要將物件加註 <code>@Component</code>，Spring Boot 框架才得以管理這個元件。在方法上標註 <code>@Around</code> 指的是在切面的前、後織入程式，參數 <code>ProceedingJoinPoint</code> 是相對於橫切面的縱向資料流，可以由此參數取得資料流中的方法簽章和傳入參數等資訊。而 <code>@Pointcut</code> 定義切面的切點，例如，切點可以是有標註自定義的 Annotation，或是某個 Controller Package 下的所有 method。</p>
+<p>以下是定義在所有標註 <code>@TimeLog</code> 或 Controller 的 Aspect 範例，計算執行這些方法需要多少時間，並將執行時間於方法回傳後印到日誌中。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@Log4j2</span></span><br><span class="line"><span class="meta">@Aspect</span></span><br><span class="line"><span class="meta">@Component</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">TimeLogAspect</span> &#123;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Around(&quot;logTime() || controller()&quot;)</span></span><br><span class="line">    <span class="keyword">public</span> Object <span class="title function_">logAround</span><span class="params">(ProceedingJoinPoint pjp)</span> <span class="keyword">throws</span> Throwable &#123;</span><br><span class="line">        <span class="type">long</span> <span class="variable">startMillis</span> <span class="operator">=</span> System.currentTimeMillis();</span><br><span class="line">        <span class="type">Object</span> <span class="variable">proceed</span> <span class="operator">=</span> pjp.proceed();</span><br><span class="line">        <span class="type">long</span> <span class="variable">executionTime</span> <span class="operator">=</span> System.currentTimeMillis() - startMillis;</span><br><span class="line">        log.info(String.format(<span class="string">&quot;Completed %s in %d ms&quot;</span>, pjp.getSignature().toShortString(), executionTime));</span><br><span class="line">        <span class="keyword">return</span> proceed;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Pointcut(&quot;@annotation(cc.secondbrain.demo.annotation.TimeLog)&quot;)</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">logTime</span><span class="params">()</span> &#123;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Pointcut(&quot;execution(* cc.secondbrain.demo.controller.*.*(..))&quot;)</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">controller</span><span class="params">()</span> &#123;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>自定義 Annotation <code>@TimeLog</code> 如下，</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@Target(ElementType.METHOD)</span></span><br><span class="line"><span class="meta">@Retention(RetentionPolicy.RUNTIME)</span></span><br><span class="line"><span class="keyword">public</span> <span class="meta">@interface</span> TimeLog &#123;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>使用自定義 Annotation <code>@TimeLog</code>，可以自由地在想要記錄執行時間的方法上註記，但只限於 <code>public</code> 方法。<br>值得特別注意的是，假如在 Controller 註記 <code>@TimeLog</code>，只會印出一行執行時間的日誌，不會重複印成兩行。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@RestController</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">HelloController</span> &#123;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@TimeLog</span></span><br><span class="line">    <span class="meta">@RequestMapping(&quot;/&quot;)</span></span><br><span class="line">    <span class="keyword">public</span> String <span class="title function_">hello</span><span class="params">()</span> &#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="string">&quot;Hello Spring Boot&quot;</span>;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+        </p>
+        <a class="stretched-link" href="/2021/06/26/spring-boot-aop-log/"></a>
+      </div>
+    </div>
+  </article>
+</li>
+
+        
+          
+   <!-- prevent image appear -->
+
+
+<li
+  id="post-setup-log4j2"
+  class="card border-0"
+  itemprop="blogPost"
+  itemscope
+  itemtype="https://schema.org/BlogPosting"
+>
+  <article class="row g-0">
+    <div class="col-12 col-lg-4">
+      <img
+        src="/images/cover-log.png"
+        class="img-fluid w-100 h-100 object-fit-cover rounded-3"
+        alt="article-建置 Log4j2"
+      >
+    </div>
+    <div class="col-12 col-lg-8">
+      <div class="card-body pt-lg-0 pe-lg-0">
+        <div class="d-flex justify-content-between justify-content-lg-start align-items-center gap-3 mb-3">
+          <p class="card-text mb-0 fs-6 text-primary-600">
+            <small class="text-body-secondary">
+              2021/6/26
+            </small>
+          </p>
+
+          
+            <span class="badge fs-6 lh-base fw-normal text-primary-700 bg-primary-200 rounded-4">
+              技術
+            </span>
+          
+
+        </div>
+        <h5 class="card-title mb-3 text-primary-700">
+          建置 Log4j2
+        </h5>
+        <div class="cutoff-text mb-0 text-primary-700">
+          <p>Log4j2 是一套執行效能不錯的日誌工具，<a target="_blank" rel="noopener" href="https://github.com/projectlombok/lombok">Lombok</a> 將 Log4j2 日誌工具整合其中，Lombok 也讓 Log4j2 使用起來更簡潔。</p>
+<h2 id="建置-Log4j2"><a href="#建置-Log4j2" class="headerlink" title="建置 Log4j2"></a>建置 Log4j2</h2><p>在 <code>build.gradle</code> 加入 Lombok dependencies，</p>
+<figure class="highlight groovy"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">dependencies &#123;</span><br><span class="line">    implementation <span class="string">&#x27;org.springframework.boot:spring-boot-starter-web&#x27;</span></span><br><span class="line">    compileOnly <span class="string">&#x27;org.projectlombok:lombok:1.18.18&#x27;</span></span><br><span class="line">    annotationProcessor <span class="string">&#x27;org.projectlombok:lombok:1.18.18&#x27;</span></span><br><span class="line"></span><br><span class="line">    testImplementation <span class="string">&#x27;org.springframework.boot:spring-boot-starter-test&#x27;</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<span id="more"></span>
+
+<p>參考 Log4j2 的文件中的 Console Appender 建立 log4j2.xml 設定檔，其他用途的日誌設定，可以參考文件的 <a target="_blank" rel="noopener" href="https://logging.apache.org/log4j/2.x/manual/appenders.html">Appenders 章節</a>；客製化調整日誌樣式，可以參考文件的 <a target="_blank" rel="noopener" href="http://logging.apache.org/log4j/2.x/manual/layouts.html#PatternLayout">Pattern Layout 章節</a>。</p>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?xml version=<span class="string">&quot;1.0&quot;</span> encoding=<span class="string">&quot;UTF-8&quot;</span>?&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">Configuration</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">Appenders</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">Console</span> <span class="attr">name</span>=<span class="string">&quot;STDOUT&quot;</span> <span class="attr">target</span>=<span class="string">&quot;SYSTEM_OUT&quot;</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">PatternLayout</span> <span class="attr">pattern</span>=<span class="string">&quot;%m%n&quot;</span>/&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">Console</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">Appenders</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">Loggers</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">Root</span> <span class="attr">level</span>=<span class="string">&quot;info&quot;</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">AppenderRef</span> <span class="attr">ref</span>=<span class="string">&quot;STDOUT&quot;</span>/&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">Root</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">Loggers</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">Configuration</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<h2 id="使用日誌"><a href="#使用日誌" class="headerlink" title="使用日誌"></a>使用日誌</h2><p>在要印出日誌的 class 宣告上標注 <code>@Log4j2</code>，就可以用 <code>log</code> 印出不同等級的日誌。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@Log4j2</span></span><br><span class="line"><span class="meta">@RestController</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">HelloController</span> &#123;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@RequestMapping(&quot;/&quot;)</span></span><br><span class="line">    <span class="keyword">public</span> String <span class="title function_">hello</span><span class="params">()</span> &#123;</span><br><span class="line">        log.info(<span class="string">&quot;hello log4j2&quot;</span>);</span><br><span class="line">        <span class="keyword">return</span> <span class="string">&quot;Hello Spring Boot&quot;</span>;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+        </p>
+        <a class="stretched-link" href="/2021/06/26/setup-log4j2/"></a>
+      </div>
+    </div>
+  </article>
+</li>
+
+        
+          
+   <!-- prevent image appear -->
+
+
+<li
+  id="post-202102-tdd-refactoring"
+  class="card border-0"
+  itemprop="blogPost"
+  itemscope
+  itemtype="https://schema.org/BlogPosting"
+>
+  <article class="row g-0">
+    <div class="col-12 col-lg-4">
+      <img
+        src="/images/cover-refactoring.png"
+        class="img-fluid w-100 h-100 object-fit-cover rounded-3"
+        alt="article-202102 演化式設計：測試驅動開發與持續重構 -- 心得"
+      >
+    </div>
+    <div class="col-12 col-lg-8">
+      <div class="card-body pt-lg-0 pe-lg-0">
+        <div class="d-flex justify-content-between justify-content-lg-start align-items-center gap-3 mb-3">
+          <p class="card-text mb-0 fs-6 text-primary-600">
+            <small class="text-body-secondary">
+              2021/4/17
+            </small>
+          </p>
+
+          
+            <span class="badge fs-6 lh-base fw-normal text-primary-700 bg-primary-200 rounded-4">
+              日誌
+            </span>
+          
+
+        </div>
+        <h5 class="card-title mb-3 text-primary-700">
+          202102 演化式設計：測試驅動開發與持續重構 -- 心得
+        </h5>
+        <div class="cutoff-text mb-0 text-primary-700">
+          <p>上完<a target="_blank" rel="noopener" href="https://dotblogs.com.tw/hatelove/2020/08/21/202102-Evolutionary-Development-TDD-and-Continuous-Refactoring">演化式設計：測試驅動開發與持續重構</a>，課後兩個月補記心得和筆記。</p>
+<span id="more"></span>
+
+<h2 id="專業有價"><a href="#專業有價" class="headerlink" title="專業有價"></a>專業有價</h2><p>早在 2018 左右就聽說 <a target="_blank" rel="noopener" href="https://tdd.best/">91 的課</a>，當時看到上課時間居然在半年後，而且一堂課要價超過一萬元，就一直處於觀望狀態而沒有報名課程。幸好在這期間我看了《刻意練習》後，就一直心心念念想找到利用「<strong>刻意練習</strong>」模式教學的課程，再加上我開始認同「專業有價」，花錢就能買到別人累積的功力，超級划算。於是，在剩下最後幾個名額時，趕緊手刀報名，心裡想不管發生什麼事，都不能妨礙我去上課，要是再不做出行動，現在這門課是開課前一年就額滿 ⋯⋯</p>
+<h2 id="從了解需求開始"><a href="#從了解需求開始" class="headerlink" title="從了解需求開始"></a>從了解需求開始</h2><ul>
+<li>由實作的人去問出需求</li>
+<li>用具體的例子談需求，甚至用錯誤的例子誘導對方講出正確的需求</li>
+</ul>
+<p>說到討論需求，近日有新的感想，我終於可以察覺出「問出需求」和「擬定做法」是兩回事。</p>
+<p>以前很多時候，我只是在覆核 PM 提出的調整可不可行，而沒有去探究背後的需求，現在可以練習再多問『想做出調整的原因？』和問『什麼會想用這個方式調整？』，這樣才能有足夠的資訊選擇最適當的做法。另外，我發現我很習慣用簡短或沒整理過的描述和其他人討論事情，用具體的例子和其他人溝通是我還需要多練習的課題。</p>
+<h2 id="便利貼起手式"><a href="#便利貼起手式" class="headerlink" title="便利貼起手式"></a>便利貼起手式</h2><ul>
+<li>拆解會需要的程式碼片段，可使用便利貼或 Mind Map 工具</li>
+<li>和團隊成員一起決定命名或 API 規格</li>
+</ul>
+<p>以前我都會一邊設計程式一邊敲鍵盤，因為覺得與其花時間在腦袋一直空想，還不如直接就開始寫程式，邊理解需求邊寫程式還邊重構，自以為我真是會敏捷開發，但是常常發生 A 設計寫到一半覺得不夠好，應該要改成 B 設計，B 設計寫到一半發現有情境沒考慮到，所以一開始才會寫成 A 設計那樣，改過來又改回去，搞到最後沒時間好好梳理程式架構和流程。</p>
+<p>所以二月週末上完課，週一進辦公室，我就乖乖到文具櫃去拿一本便利貼來用，仔細拆解會需要的程式碼片段，再開始敲程式碼，寫程式有明顯變得比較順，思路也比較周全，反而花比較少時間開發，對於 Task 的完成度更有信心。</p>
+<h2 id="安排測試案例，小步重構"><a href="#安排測試案例，小步重構" class="headerlink" title="安排測試案例，小步重構"></a>安排測試案例，小步重構</h2><ul>
+<li>測試案例必須是使用情境，命名要描述 Domain，不能出現具體的例子名稱</li>
+<li>測試案例從最簡單的案例開始寫，如果要改太多就拆小一點<blockquote>
+<p>最簡單的意思是：加最少的程式碼片段，或複製測試案例改最少的程式碼片段。</p>
+</blockquote>
+</li>
+<li>TDD 只需要列出可以把需要的程式碼片段開發完成即可，不用列出所有案例</li>
+</ul>
+<p>我之前以為用排列組合列出所有測試案例，就是最系統化的方式，完全沒想過測試案例的順序是要刻意安排的，所以一次不會改動太多程式，比較沒有除錯壓力，搭配便利貼起手式一起服用更有效。先做好全局的思考，這時候再開始用 TDD 的方式寫程式：</p>
+<ol>
+<li>Baby Step：一次做少一點，然後該做的有做完（一個完整的使用情境）</li>
+<li>紅燈 → 綠燈：無腦通過測試案例</li>
+<li>綠燈 → 重構：從刻意產生重複的程式碼演進成 Production Code 設計</li>
+</ol>
+<h2 id="重構-Legacy-Code"><a href="#重構-Legacy-Code" class="headerlink" title="重構 Legacy Code"></a>重構 Legacy Code</h2><p>Legacy Code 是實務上最常會遇到的情況，通常 Legacy Code 沒有單元測試保護，所以就沒人敢改。<br>利用單元測試和強大的 <a target="_blank" rel="noopener" href="https://www.jetbrains.com/">IDE 工具</a>自動產生程式碼做重構，安全地跳脫惡性循環：</p>
+<ol>
+<li>整理代碼：刪除 comment、調整爛命名、多餘空白行、Temp Variables</li>
+<li>整理流程：消除重複、凸顯意圖<blockquote>
+<p>不要太早抽方法，會不容易看出重複，可用 Inline Method 回復 Method。</p>
+</blockquote>
+</li>
+<li>改邏輯要有對應的測試保護</li>
+<li>分職責<ul>
+<li>物件導向（高內聚）：用物件模型模擬真實世界，把資料往物件堆，叫物件做事</li>
+<li>Design Pattern（低耦合）</li>
+</ul>
+</li>
+</ol>
+<p>原則上設計心法就是用最簡單的方式滿足使用者情境，並且寫最少的防呆，參數越少越好用。</p>
+<blockquote>
+<p>Keep it Simple, don’t overdesign your solution.</p>
+</blockquote>
+<h2 id="結論"><a href="#結論" class="headerlink" title="結論"></a>結論</h2><p>[演化式設計：測試驅動開發與持續重構] 是 [針對遺留代碼加入單元測試的藝術] 和 [極速開發] 兩門課的集大成，上完課後仍需要不斷練習和反思，才能持續進步。原本課前預習就應該要先了解 <a target="_blank" rel="noopener" href="https://refactoring.guru/refactoring/smells">Code Smell</a> 和 <a target="_blank" rel="noopener" href="https://refactoring.guru/refactoring/techniques">Refactoring</a> 相關知識，但在上課前我沒有確實做到，現在要補下基本功，也藉此督促自己要熟練課堂上的重構練習。</p>
+
+        </p>
+        <a class="stretched-link" href="/2021/04/17/202102-tdd-refactoring/"></a>
+      </div>
+    </div>
+  </article>
+</li>
+
+        
+      </ul>
+    </div>
+
+    <nav class="mb-7 mb-md-9" aria-label="Page navigation">
+      <ul class="pagination justify-content-center gap-3">
+        
+      </ul>
+    </nav>
+  </section>
+    
+</main>
+
+
+  <footer
+    class="py-7"
+    style="background-image: url('/images/footer-bg-lg.png');
+      background-repeat: no-repeat;
+      background-size: cover;"
+  >
+  <div class="container">
+    <div class="row row-gap-7 justify-content-between align-items-center my-md-7">
+      <div class="col-12 col-md-4 col-lg-3">
+        <img
+          class="mb-4"
+          style="width: 120px;"
+          src="/images/logo.svg" alt="logo"
+        >
+      </div>
+    </div>
+  </div>
+</footer>
+  
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  
+<script src="/js/swiper.js"></script>
+
+</body>
+</html>

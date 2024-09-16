@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  
+  <title>首頁 | 第二大腦</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="第二大腦 | 日誌 | System Design | Backend | LeetCode">
+<meta property="og:type" content="website">
+<meta property="og:title" content="第二大腦">
+<meta property="og:url" content="https://2ndbrain.cc/index.html">
+<meta property="og:site_name" content="第二大腦">
+<meta property="og:description" content="第二大腦 | 日誌 | System Design | Backend | LeetCode">
+<meta property="og:locale" content="zh_TW">
+<meta property="article:author" content="Irene Wang">
+<meta property="article:tag" content="第二大腦,技術,System Design,Backend,LeetCode">
+<meta name="twitter:card" content="summary">
+  
+  
+    <link rel="shortcut icon" href="/images/logo.svg">
+  
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Tourney&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
+  
+<link rel="stylesheet" href="/css/all.min.css">
+
+<meta name="generator" content="Hexo 7.3.0"></head>
+
+<body>
+  <header
+    class="py-md-4 border-bottom border-primary-200"
+    style="margin-bottom: 1px;"
+  >
+  <nav class="navbar navbar-expand-md py-md-1">
+    <div class="container">
+      <a class="navbar-brand py-0" href="/">
+        <img src="/images/logo.svg" alt="logo">
+      </a>
+      <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="material-symbols-outlined fs-1 text-primary-900">menu</span>
+      </button>
+      <div class="collapse navbar-collapse offset-md-2 offset-lg-3" id="navbarToggler">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0 text-center">
+          
+          
+            <li class="nav-item mb-4 mb-md-0 me-md-3 me-lg-7">
+              <a
+                class="nav-link active"
+                href="/"
+              >
+                <span class="position-relative px-2 py-1">首頁</span>
+              </a>
+            </li>
+          
+            <li class="nav-item ">
+              <a
+                class="nav-link "
+                href="/blog"
+              >
+                <span class="position-relative px-2 py-1">部落格</span>
+              </a>
+            </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+
+  <main>
+  <div class="container-fluid">
+    <div class="row flex-md-row-reverse mb-7 mb-md-9">
+      <div class="col-12 col-md-7 px-0 overflow-hidden">
+        <picture>
+          <source media="(min-width: 768px)" srcset="/images/hero-lg.png">
+          <img class="w-100" src="/images/hero-sm.png" alt="hero banner">
+        </picture>
+      </div>
+      <div class="col-10 col-md-4 mx-auto mx-md-0">
+        <div class="d-flex flex-column justify-content-center align-items-center align-items-md-start h-100">
+          <h1 class="mb-4 text-primary-700 fw-semibold">你好，我是 Irene</h1>
+          <p class="text-center text-md-start text-primary-600 fs-5 mb-0">兼具<mark class="mark text-primary-600">商業導向</mark>、<mark class="mark text-primary-600">產品價值</mark>、<mark class="mark text-primary-600">迭代開發</mark>思維，</p>
+          <p class="text-center text-md-start text-primary-600 fs-5">立志在市場上做出好產品。</p>
+          <p class="text-center text-md-start text-primary-400 mb-9">SYSTEM DESIGN / SBE / TESTING / REFACTORING / DX</p>
+          <div class="d-flex gap-3">
+            <a class="icon-link link-primary-600 px-2 fs-1" target="_blank" rel="noopener" href="https://www.linkedin.com/in/lohas1107">
+              <i class="bi bi-linkedin"></i>
+            </a>
+            <a class="icon-link link-primary-600 px-2 fs-1" target="_blank" rel="noopener" href="https://github.com/lohas1107">
+              <i class="bi bi-github"></i>
+            </a>
+            <a class="icon-link link-primary-600 px-2 fs-1" target="_blank" rel="noopener" href="https://www.youtube.com/@irenewang">
+              <i class="bi bi-youtube"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="container pb-7 pb-md-9">
+    <h2 class="title-deco py-7 py-md-9 mt-7 mt-md-9 text-center text-primary-700 tracking-wide fw-semibold">精選文章</h2>
+
+      <div class="row row-gap-5 mb-7">
+        <div class="swiper">
+          <div class="swiper-wrapper mb-9">
+          
+          
+            <div class="swiper-slide col-12 col-md-6 col-lg-4">
+              <div class="card border-0">
+                <img src="/images/cover-workspace.png" class="card-img-top rounded-3" alt="article-1">
+                <div class="card-body">
+                  <h5 class="card-title mb-3 text-primary-700">使用 Go Workspaces 管理系統服務：從單體架構到分散式架構的彈性實現</h5>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <ul class="d-flex gap-2 mb-0 overflow-x-hidden list-unstyled" itemprop="keywords"><li class="tag-list-item"><a class="badge fs-6 lh-base fw-normal text-primary-700 bg-primary-200 rounded-4 text-decoration-none " href="/tags/%E6%8A%80%E8%A1%93/" rel="tag">技術</a></li></ul>
+                    
+                    <p class="card-text fs-6 text-primary-600"><small class="text-body-secondary">2024/09/15</small></p>
+                  </div>
+                  <a class="stretched-link" href="2024/09/15/go-workspace-mono-to-distributed-system/"></a>
+                </div>
+              </div>
+            </div>
+          
+            <div class="swiper-slide col-12 col-md-6 col-lg-4">
+              <div class="card border-0">
+                <img src="/images/cover-aop.png" class="card-img-top rounded-3" alt="article-1">
+                <div class="card-body">
+                  <h5 class="card-title mb-3 text-primary-700">在 Spring Boot 使用 AOP 印日誌</h5>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <ul class="d-flex gap-2 mb-0 overflow-x-hidden list-unstyled" itemprop="keywords"><li class="tag-list-item"><a class="badge fs-6 lh-base fw-normal text-primary-700 bg-primary-200 rounded-4 text-decoration-none " href="/tags/%E6%8A%80%E8%A1%93/" rel="tag">技術</a></li></ul>
+                    
+                    <p class="card-text fs-6 text-primary-600"><small class="text-body-secondary">2021/06/26</small></p>
+                  </div>
+                  <a class="stretched-link" href="2021/06/26/spring-boot-aop-log/"></a>
+                </div>
+              </div>
+            </div>
+          
+            <div class="swiper-slide col-12 col-md-6 col-lg-4">
+              <div class="card border-0">
+                <img src="/images/cover-log.png" class="card-img-top rounded-3" alt="article-1">
+                <div class="card-body">
+                  <h5 class="card-title mb-3 text-primary-700">建置 Log4j2</h5>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <ul class="d-flex gap-2 mb-0 overflow-x-hidden list-unstyled" itemprop="keywords"><li class="tag-list-item"><a class="badge fs-6 lh-base fw-normal text-primary-700 bg-primary-200 rounded-4 text-decoration-none " href="/tags/%E6%8A%80%E8%A1%93/" rel="tag">技術</a></li></ul>
+                    
+                    <p class="card-text fs-6 text-primary-600"><small class="text-body-secondary">2021/06/26</small></p>
+                  </div>
+                  <a class="stretched-link" href="2021/06/26/setup-log4j2/"></a>
+                </div>
+              </div>
+            </div>
+          
+            <div class="swiper-slide col-12 col-md-6 col-lg-4">
+              <div class="card border-0">
+                <img src="/images/cover-refactoring.png" class="card-img-top rounded-3" alt="article-1">
+                <div class="card-body">
+                  <h5 class="card-title mb-3 text-primary-700">202102 演化式設計：測試驅動開發與持續重構 -- 心得</h5>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <ul class="d-flex gap-2 mb-0 overflow-x-hidden list-unstyled" itemprop="keywords"><li class="tag-list-item"><a class="badge fs-6 lh-base fw-normal text-primary-700 bg-primary-200 rounded-4 text-decoration-none " href="/tags/%E6%97%A5%E8%AA%8C/" rel="tag">日誌</a></li></ul>
+                    
+                    <p class="card-text fs-6 text-primary-600"><small class="text-body-secondary">2021/04/17</small></p>
+                  </div>
+                  <a class="stretched-link" href="2021/04/17/202102-tdd-refactoring/"></a>
+                </div>
+              </div>
+            </div>
+          
+
+          </div>
+          <div class="swiper-pagination d-none d-md-block"></div>
+        </div>
+      </div>
+
+    <div class="d-flex d-md-none justify-content-center mb-7">
+      <a
+        class="btn btn-lg fs-6 fw-bold text-primary-50 bg-primary-900"
+        href="/blog"
+      >
+        更多文章
+        <span class="material-symbols-outlined align-text-bottom">arrow_forward</span>
+      </a>
+    </div>
+  </section>
+</main>
+
+  <footer
+    class="py-7"
+    style="background-image: url('/images/footer-bg-lg.png');
+      background-repeat: no-repeat;
+      background-size: cover;"
+  >
+  <div class="container">
+    <div class="row row-gap-7 justify-content-between align-items-center my-md-7">
+      <div class="col-12 col-md-4 col-lg-3">
+        <img
+          class="mb-4"
+          style="width: 120px;"
+          src="/images/logo.svg" alt="logo"
+        >
+      </div>
+    </div>
+  </div>
+</footer>
+  
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  
+<script src="/js/swiper.js"></script>
+
+</body>
+</html>
